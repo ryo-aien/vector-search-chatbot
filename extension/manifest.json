@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "ヘルプQAチャットボット",
+  "version": "0.1.0",
+  "description": "既存のホームページにヘルプチャットウィジェットを追加するブラウザ拡張機能",
+  "permissions": [],
+  "host_permissions": [
+    "http://localhost:8000/*",
+    "https://www.docomo.ne.jp/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.docomo.ne.jp/support/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
