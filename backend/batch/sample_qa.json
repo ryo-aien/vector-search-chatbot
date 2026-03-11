@@ -4,139 +4,139 @@
     "question": "料金はいくらですか？",
     "answer": "基本プランは月額1,980円（税込）です。年払いの場合は月額1,650円になりお得です。",
     "category": "料金",
-    "url": "/pricing"
+    "url": "https://www.docomo.ne.jp/support/pricing"
   },
   {
     "id": "qa_002",
     "question": "無料トライアルはありますか？",
     "answer": "はい、14日間の無料トライアルをご用意しています。クレジットカードの登録なしでお試しいただけます。",
     "category": "料金",
-    "url": "/pricing#trial"
+    "url": "https://www.docomo.ne.jp/support/pricing#trial"
   },
   {
     "id": "qa_003",
     "question": "プランのアップグレードはどうすればできますか？",
     "answer": "マイページの「プラン変更」から即時アップグレードが可能です。差額は日割り計算でご請求します。",
     "category": "料金",
-    "url": "/mypage/plan"
+    "url": "https://www.docomo.ne.jp/support/mypage/plan"
   },
   {
     "id": "qa_004",
     "question": "解約方法を教えてください",
     "answer": "マイページの「契約管理」→「解約手続き」から手続きができます。解約後も契約期間終了日まではサービスをご利用いただけます。",
     "category": "アカウント",
-    "url": "/mypage/cancel"
+    "url": "https://www.docomo.ne.jp/support/mypage/cancel"
   },
   {
     "id": "qa_005",
     "question": "パスワードを忘れた場合はどうすればよいですか？",
     "answer": "ログインページの「パスワードをお忘れの方」をクリックし、登録済みのメールアドレスを入力してください。パスワード再設定用のメールが届きます。",
     "category": "アカウント",
-    "url": "/login#forgot-password"
+    "url": "https://www.docomo.ne.jp/support/login#forgot-password"
   },
   {
     "id": "qa_006",
     "question": "メールアドレスを変更するにはどうすればよいですか？",
     "answer": "マイページの「プロフィール設定」からメールアドレスの変更が可能です。変更後、新しいアドレスに確認メールが送信されます。",
     "category": "アカウント",
-    "url": "/mypage/profile"
+    "url": "https://www.docomo.ne.jp/support/mypage/profile"
   },
   {
     "id": "qa_007",
     "question": "複数のアカウントを作成できますか？",
     "answer": "1つのメールアドレスにつき1アカウントのみ作成可能です。チームでのご利用にはビジネスプランのマルチユーザー機能をご検討ください。",
     "category": "アカウント",
-    "url": "/pricing#business"
+    "url": "https://www.docomo.ne.jp/support/pricing#business"
   },
   {
     "id": "qa_008",
     "question": "対応しているファイル形式を教えてください",
     "answer": "PDF、Word（.docx）、Excel（.xlsx）、CSV、テキスト（.txt）形式に対応しています。1ファイルあたりの上限サイズは50MBです。",
     "category": "機能",
-    "url": "/features/upload"
+    "url": "https://www.docomo.ne.jp/support/features/upload"
   },
   {
     "id": "qa_009",
     "question": "データのエクスポートはできますか？",
     "answer": "はい、CSV・JSON・PDF形式でエクスポートが可能です。マイページの「データ管理」→「エクスポート」からご利用いただけます。",
     "category": "機能",
-    "url": "/features/export"
+    "url": "https://www.docomo.ne.jp/support/features/export"
   },
   {
     "id": "qa_010",
     "question": "APIは提供していますか？",
     "answer": "プロプラン以上でREST APIをご利用いただけます。APIドキュメントはdocs.example.comをご参照ください。",
     "category": "機能",
-    "url": "/docs/api"
+    "url": "https://www.docomo.ne.jp/support/docs/api"
   },
   {
     "id": "qa_011",
     "question": "スマートフォンからも使えますか？",
     "answer": "iOS・Android向けのモバイルアプリを提供しています。また、モバイルブラウザからもレスポンシブデザインで快適にご利用いただけます。",
     "category": "機能",
-    "url": "/features/mobile"
+    "url": "https://www.docomo.ne.jp/support/features/mobile"
   },
   {
     "id": "qa_012",
     "question": "データのバックアップはされていますか？",
     "answer": "毎日自動バックアップを実施しており、過去30日分のデータを保持しています。バックアップからの復元は「データ管理」ページから依頼できます。",
     "category": "機能",
-    "url": "/features/backup"
+    "url": "https://www.docomo.ne.jp/support/features/backup"
   },
   {
     "id": "qa_013",
     "question": "サポートへの問い合わせ方法を教えてください",
     "answer": "メールサポート（support@example.com）またはチャットサポートをご利用ください。対応時間は平日9:00〜18:00です。プロプラン以上では優先サポートをご利用いただけます。",
     "category": "サポート",
-    "url": "/contact"
+    "url": "https://www.docomo.ne.jp/support/contact"
   },
   {
     "id": "qa_014",
     "question": "問い合わせの返答にはどのくらいかかりますか？",
     "answer": "通常1〜2営業日以内にご返答いたします。プロプラン以上のお客様は優先対応となり、当日中のご返答を目標としています。",
     "category": "サポート",
-    "url": "/contact#sla"
+    "url": "https://www.docomo.ne.jp/support/contact#sla"
   },
   {
     "id": "qa_015",
     "question": "操作方法のマニュアルはありますか？",
     "answer": "ヘルプセンター（help.example.com）に詳細なマニュアルと動画チュートリアルを掲載しています。また、アプリ内のツアー機能もご活用ください。",
     "category": "サポート",
-    "url": "/help"
+    "url": "https://www.docomo.ne.jp/support/help"
   },
   {
     "id": "qa_016",
     "question": "個人情報はどのように管理されていますか？",
     "answer": "お客様の個人情報は暗号化して保管し、第三者への提供は行いません。詳細はプライバシーポリシーをご確認ください。",
     "category": "プライバシー",
-    "url": "/privacy"
+    "url": "https://www.docomo.ne.jp/support/privacy"
   },
   {
     "id": "qa_017",
     "question": "データはどこのサーバーに保存されますか？",
     "answer": "データは国内（東京リージョン）のAWSサーバーに保存されています。ISO 27001認証を取得したデータセンターを利用しています。",
     "category": "プライバシー",
-    "url": "/security"
+    "url": "https://www.docomo.ne.jp/support/security"
   },
   {
     "id": "qa_018",
     "question": "退会するとデータはどうなりますか？",
     "answer": "退会後30日間はデータを保持します。30日経過後は完全に削除されます。退会前にエクスポート機能でデータのバックアップをお勧めします。",
     "category": "プライバシー",
-    "url": "/privacy#data-deletion"
+    "url": "https://www.docomo.ne.jp/support/privacy#data-deletion"
   },
   {
     "id": "qa_019",
     "question": "二要素認証は設定できますか？",
     "answer": "はい、Google AuthenticatorやAuthyなどのTOTPアプリを使った二要素認証に対応しています。マイページの「セキュリティ設定」から有効化できます。",
     "category": "アカウント",
-    "url": "/mypage/security"
+    "url": "https://www.docomo.ne.jp/support/mypage/security"
   },
   {
     "id": "qa_020",
     "question": "請求書払いには対応していますか？",
     "answer": "年額プランをご契約の法人のお客様に限り、請求書払いに対応しております。ご希望の場合はsales@example.comまでお問い合わせください。",
     "category": "料金",
-    "url": "/pricing#invoice"
+    "url": "https://www.docomo.ne.jp/support/pricing#invoice"
   }
 ]

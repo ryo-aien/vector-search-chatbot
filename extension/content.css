@@ -356,6 +356,17 @@
   margin-bottom: 4px;
 }
 
+/* 回答内リンク */
+.hcb-bubble .hcb-link {
+  color: #2563eb;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+.hcb-bubble .hcb-link:hover {
+  color: #1d4ed8;
+}
+
 /* スコアバッジ */
 .hcb-score-badge {
   display: inline-block;

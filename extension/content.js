@@ -82,6 +82,30 @@
     }
   }
 
+  function renderTextWithLinks(el, text) {
+    // URLを含む行はリンクに変換、それ以外はテキストノードとして追加
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    const lines = text.split("\n");
+    lines.forEach((line, i) => {
+      if (i > 0) el.appendChild(document.createElement("br"));
+      const parts = line.split(urlRegex);
+      parts.forEach((part) => {
+        if (urlRegex.test(part)) {
+          const a = document.createElement("a");
+          a.href = part;
+          a.textContent = part;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer";
+          a.className = "hcb-link";
+          el.appendChild(a);
+        } else {
+          el.appendChild(document.createTextNode(part));
+        }
+      });
+      urlRegex.lastIndex = 0;
+    });
+  }
+
   function appendMessage(role, text, extra) {
     const container = getMessagesContainer();
     if (!container) return;
@@ -91,7 +115,11 @@
 
     const bubble = document.createElement("div");
     bubble.className = "hcb-bubble";
-    bubble.textContent = text;
+    if (role === "bot") {
+      renderTextWithLinks(bubble, text);
+    } else {
+      bubble.textContent = text;
+    }
     msgEl.appendChild(bubble);
 
     // 関連QAリンク（ボットの回答時のみ）
@@ -362,6 +390,9 @@
   function init() {
     const { toggleBtn, widget } = buildWidget();
     bindEvents(toggleBtn, widget);
+    // 初期状態のテキストエリアの高さを正しく設定
+    const input = document.getElementById("hcb-input");
+    if (input) autoResizeTextarea(input);
     console.log("[HCB] ヘルプQAチャットボット ウィジェットを読み込みました");
   }
 
